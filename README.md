@@ -3,7 +3,8 @@
 
 ## The questions I examine in my analysis are the following:
 
-**1.** Which team has scored the most goals in the past decade?  
+**1.** Which team has scored the most goals in the past decade?
+```Man City, Total Goals: 956```
 
 **2.** Which team have had the most home wins vs. away wins?  
 
