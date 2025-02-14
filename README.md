@@ -6,7 +6,7 @@
 **1.** Which team has scored the most goals in the past decade?
 ```Man City, Total Goals: 956```
 
-**2.** Which team have had the most home wins vs. away wins?  
+**2.** Which team(s) in the past decade, win most of their games at home and which team(s) win most of their games away?
 
 **3.** Is there a correlation between the number of shots taken by a team and the number of goals they score?  
 
