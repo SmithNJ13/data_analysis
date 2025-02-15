@@ -14,9 +14,10 @@ Interestingly, the team with the highest home win rate % is Middlesbrough with 8
 their wins at home. Ipswich have the highest away win rate % at 67.0%.
 Ironically, despite these impressive values, both teams have their overall win rate % at 13.0%. Yikes.
 
-In a more fair manner, if I want to make a meaningful observation, I decided to limit the pool to teams who have 50 or more wins.
-In this instance, Everton, with a total of 135 wins has a Home Win Rate% of: 64%!
-Meanwhile, Crystal Palace, with a total of 125 wins has an Away Win Rate% of: 47%!
+In a more fair manner, if I want to make a meaningful observation, I decided to limit the pool to teams 
+who have 50 or more wins. In this instance, Everton, with a total of 135 wins has a 
+Home Win Rate% of: 64%! Meanwhile, Crystal Palace, with a total of 125 wins 
+has an Away Win Rate% of: 47%!
 
 Despite this, Everton has an overall Win Rate% of: 34.0%
 and Crystal Palace has an overall Win Rate% of: 31.0%
@@ -39,8 +40,8 @@ What I can conclude from this is that:
        in determining a teams ability, or their performance. Other than identifying that 
        Home advantage is a thing that affects all teams.
 
- E. To further analyse this, I looked at teams overall Win Rate% in relation to their Home Win Rate% and
-       Away Win Rate%. 
+ E. To further analyse this, I looked at teams overall Win Rate% in relation to their Home Win Rate% 
+       and Away Win Rate%. 
        HomeWinRate >= 58, Avg overall Win Rate%: 37%, HomeWinRate < 58, Avg overall Win Rate%: 43%
        AwayWinRate >= 42, Avg overall Win Rate%: 43%, HomeWinRate < 42, Avg overall Win Rate%: 37%
 
