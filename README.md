@@ -16,8 +16,9 @@ Ironically, despite these impressive values, both teams have their overall win r
 
 In a more fair manner, if I want to make a meaningful observation, I decided to limit the pool to teams 
 who have 50 or more wins. In this instance, Everton, with a total of 135 wins has a 
-Home Win Rate% of: 64%! Meanwhile, Crystal Palace, with a total of 125 wins 
-has an Away Win Rate% of: 47%!
+Home Win Rate% of: 64%! Meanwhile in joint first, we have:
+Chelsea, with a total of 210 wins and Crystal Palace, with a total of 125 wins,
+both teams with an Away Win Rate% of 47.0%!
 
 Despite this, Everton has an overall Win Rate% of: 34.0%
 and Crystal Palace has an overall Win Rate% of: 31.0%
@@ -32,7 +33,7 @@ What I can conclude from this is that:
        not a particularly strong team. The few wins they do get, 
        the majority are because of Home advantage.
 
- C. Crystal Palace has a higher than average Away Win Rate% than other teams. This has no
+ C. Crystal Palace & Chelsea have a higher than average Away Win Rate% than other teams. This has no
        reflection on the teams ability. Teams like Man City who have a similar value
        (46% Away Win Rate) have a significantly better performance and higher overall Win Rate%.
 
