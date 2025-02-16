@@ -5,11 +5,11 @@
 
 **1.** Which team has scored the most goals in the past decade?
 ```
-1st Man City, Total Goals: 956
+1st Man City, Total Goals: 989
 
-    2nd: Liverpool, Total Goals: 828
+    2nd: Liverpool, Total Goals: 876
 
-        3rd: Arsenal, Total Goals: 755
+        3rd: Arsenal, Total Goals: 777
 ```
 
 **2.** Which team(s) in the past decade, win most of their games at home and which team(s) win most of their games away?
