@@ -56,7 +56,11 @@ What I can conclude from this is that:
 ```
 
 
-**3.** Is there a correlation between the number of shots taken by a team and the number of goals they score?  
+**3.** Is there a correlation between the number of shots taken by a team and the number of goals they score?
+```
+There is a strong correlation between shots taken and goals scored, with a slightly weaker - but still
+strong correlation between shots on target and goals scored.
+```
 
 **4.** Has fouling become more frequent over the years and what can one conclude from the findings?  
 
