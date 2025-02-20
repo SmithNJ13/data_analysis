@@ -34,20 +34,21 @@ the mean Away Win Rate% was: 42%.
 What I can conclude from this is that:
  A. Home advantage is a *very real* thing. You are more likely to win at Home.
 
- B. Everton get most of their wins from playing at Home, coupled with their overall Win Rate% they are 
-       not a particularly strong team. The few wins they do get, 
-       the majority are because of Home advantage.
+ B. Everton get most of their wins from playing at Home, coupled with their overall Win Rate% 
+       they are not a particularly strong team. 
+       The few wins they do get, the majority are because of Home advantage.
 
- C. Crystal Palace & Chelsea have a higher than average Away Win Rate% than other teams. This has no
-       reflection on the teams ability. Teams like Man City who have a similar value
-       (46% Away Win Rate) have a significantly better performance and higher overall Win Rate%.
+ C. Crystal Palace & Chelsea have a higher than average Away Win Rate% than other teams. 
+       This has no reflection on the teams ability. 
+       Teams like Man City who have a similar value (46% Away Win Rate) have a 
+       significantly better performance and higher overall Win Rate%.
 
  D. In summary, looking at Home Win Rate% and Away Win Rate% has no real significant impact 
        in determining a teams ability, or their performance. Other than identifying that 
        Home advantage is a thing that affects all teams.
 
- E. To further analyse this, I looked at teams overall Win Rate% in relation to their Home Win Rate% 
-       and Away Win Rate%. 
+ E. To further analyse this, I looked at teams overall Win Rate% in relation to their 
+       Home Win Rate% and Away Win Rate%. 
        HomeWinRate >= 58, Avg overall Win Rate%: 37%, HomeWinRate < 58, Avg overall Win Rate%: 43%
        AwayWinRate >= 42, Avg overall Win Rate%: 43%, HomeWinRate < 42, Avg overall Win Rate%: 37%
 
@@ -60,8 +61,8 @@ What I can conclude from this is that:
 **3.** Is there a correlation between the number of shots taken by a team and the number of goals they score,
 additionally, what deeper findings can you extrapolate from these statistics?
 ```
-There is a strong correlation between shots taken and goals scored, with a slightly weaker - but still
-strong correlation between shots on target and goals scored.
+There is a strong correlation between shots taken and goals scored, with a slightly weaker - 
+but still strong correlation between shots on target and goals scored.
 
 In addition to this I created three new novel metrics to assist with my analysis, 
 these were the following:
@@ -100,14 +101,57 @@ correlation on performance),
 and a whopping -0.94 ASC (Average Shot Coefficient)
 
 This means that Middlesbrough, had many of their shots on target, but the vast majority of them did 
-not convertto goals - indictating a poor finishing performance. A terrible, TSCR% rate means that the 
-shots they were takingthat are not on target are of rather poor quality and poor shot selection, 
-and in addition to this, they weren'teven shooting that often. In the one season they played, they were 
-close to being the bottom in total shots made. So of the very very few shots they decided to take, 
-they were poor choices and they had no finishing.
+not convert to goals - indictating a poor finishing performance. A terrible, TSCR% rate means that the 
+shots they were taking that are not on target are of rather poor quality and poor shot selection, 
+and in addition to this, they weren't even shooting that often. In the one season they played, 
+they were close to being the bottom in total shots made. So of the very very few shots they decided 
+to take, they were poor choices and they had no finishing.
+
 This is reflected in their astronomically low Win Rate of 13.2%.
 
 So if anyone asks you who the worst Premier League team of the last decade has been 
 - Middlesbrough wouldn't be a terrible answer to give.
 ```
 
+
+**Reflections:**
+(Things I did well):
+```
+ 1. Intuitatively came up with new metrics, combining statistics already in the DataFrame to help 
+better my analysis (OTCR%, SOT%, ASC) this allowed me to effectively combine multiple metrics 
+into 'one' so it was easier to spot correlations between things, for example, ASC vs Win Rate%.
+
+ 2. Identified valuable metrics that could provide insightful analysis to a teams performance and 
+filtered out less valuable, or less relevant metrics meaning I kept a clear, defined scope which
+allows for more efficient and effective breakdowns.
+
+ 3. Curiosity, I allowed my curiosity to guide me in exploring my analysis which meant I could discover 
+intriguing and meaningful relationships and correlations between various different statistics. 
+However, this was a slightly double-edged sword as it meant I would investigate some
+leads that I thought could be interesting and promising only to discover there wasn't much of a 
+correlation or meaningful impact on team performance which did tell me something about the data, 
+but was disappointing to experience as I would have hoped to explore these avenues.
+
+For example, I thought perhaps teams got more accurate over the years, so I did a 
+comparative boxplot to see if teams OTCR% had increased over the decade. 
+I also explored if teams were being more proactive and aggressive taking more shots on the whole, 
+but this also followed a similar trend, interestingly however, 2020 was a standout year in this metric 
+being significantly behind all the others - this may be in part due to the pandemic happening at the time. 
+A lack of audience and crowd to spur the teams on might have, even subconciously affected their 
+willingness to be aggressive or 'put on a show'.
+```
+
+(Things I didn't do so well):
+```
+ 1. Too trusting of the data source and naivety in the data sets ability to fully explore in-depth 
+the things I wanted to explore. For example, taking more time to gather from different sources other
+relevant statistics and information like xG, league points, goals conceded would have provided me
+with more meaningful and interesting statistics to do a deeper analysis.
+
+ 2. Formatting and preparation of the data and DataFrames, I could have fine tuned the DataFrames 
+into an additional category to include 'seasonal' performance, I had a yearly DataFrame and a decade 
+DataFrame but as I explored I noticed some teams were having their games cut off given how the EPL has its
+matches structured. Towards my final question I did categorise the DataFrame into a seasonal one,
+so each team had 38 matches to draw data from. However, I realised this would have been beneficial
+to the questions prior too.
+```
