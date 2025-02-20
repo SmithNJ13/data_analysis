@@ -56,12 +56,54 @@ What I can conclude from this is that:
 ```
 
 
-**3.** Is there a correlation between the number of shots taken by a team and the number of goals they score?
+**3.** Is there a correlation between the number of shots taken by a team and the number of goals they score, additionally,
+       what deeper findings can you extrapolate from these statistics?
 ```
 There is a strong correlation between shots taken and goals scored, with a slightly weaker - but still
 strong correlation between shots on target and goals scored.
+
+In addition to this I created three new novel metrics to assist with my analysis, these were the following:
+1.    TSCR% (Total Shot Conversion Rate): Goals per total shots taken
+2.    OTCR% (On Target Conversion Rate): Goals per shots on target
+3.    ASC (Average Shot Coefficient): Team's shot frequency compared to season mean
+
+Teams with high OTCR% achieved significantly better win rates (~61.6%)
+Poor finishing teams, low OTCR%, struggled to win (~18.4% win rate)
+Higher shot volumes correlate more strongly with goals than shot accuracy alone
+
+Manchester City: High-volume shooting strategy with good conversion rates
+Liverpool: Similar high-volume approach but lower conversion efficiency
+Arsenal/Chelsea: More balanced approach between shot volume and accuracy
+
+Man City had a very consistent ASC rating, averaging +0.91 across the entire decade! Meaning that
+of all the Premier League teams active throughout that time, Man City were often the team
+taking the most shots in a game - this can be indicative of a teams attacking tempo.
+
+From these statistics that I worked with, there was a strong indication that Man City
+over the last decade has been one of the most consistent and high performing teams in the League.
+Conversely, of the EPL teams that have played every season since 2014, Crystal Palace on the whole
+tends to be one of the most - arguably the most, underperforming team. There is a case to be made
+against West Ham too, however, statistically their peaks were much higher, whereas
+Crystal Palace never had amazing peaks, both in WinRate% or attacking tempo.
+
+Of all 35 teams that have played in the EPL across the last decade (2014-2024),
+Middlesbrough was categorically the worst, performing terrible in every meaningful metric and
+often being the last, or second to last in the list. The following metrics are:
+
+13.2% WinRate, 41.8% Shots on Target (Which, I have evaluated and shown has a negative correlation on performance),
+
+18.5% OTCR% (On Target Conversion Rate), 7.7% TSCR% (Total Shot Conversion Rate) 
+
+and a whopping -0.94 ASC (Average Shot Coefficient)
+
+This means that Middlesbrough, had many of their shots on target, but the vast majority of them did not convert
+to goals - indictating a poor finishing performance. A terrible, TSCR% rate means that the shots they were taking
+that are not on target are of rather poor quality and poor shot selection, and in addition to this, they weren't
+even shooting that often. In the one season they played, they were close to being the bottom in total shots made.
+So of the very very few shots they decided to take, they were poor choices and they had no finishing.
+This is reflected in their astronomically low Win Rate of 13.2%.
+
+So if anyone asks you who the worst Premier League team of the last decade has been - Middlesbrough wouldn't
+be a terrible answer to give.
 ```
 
-**4.** Has fouling become more frequent over the years and what can one conclude from the findings?  
-
-**5.** What factors impact a team's ability to win the most?  
