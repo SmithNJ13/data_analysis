@@ -12,7 +12,8 @@
         3rd: Arsenal, Total Goals: 777
 ```
 
-**2.** Which team(s) in the past decade, win most of their games at home and which team(s) win most of their games away?
+**2.** Which team(s) in the past decade, win most of their games at home and which team(s) win most of their 
+games away?
 ```
 Interestingly, the team with the highest home win rate % is Middlesbrough with 80.0% of 
 their wins at home. Ipswich have the highest away win rate % at 67.0%.
@@ -56,8 +57,8 @@ What I can conclude from this is that:
 ```
 
 
-**3.** Is there a correlation between the number of shots taken by a team and the number of goals they score, additionally,
-       what deeper findings can you extrapolate from these statistics?
+**3.** Is there a correlation between the number of shots taken by a team and the number of goals they score,
+additionally, what deeper findings can you extrapolate from these statistics?
 ```
 There is a strong correlation between shots taken and goals scored, with a slightly weaker - but still
 strong correlation between shots on target and goals scored.
@@ -90,20 +91,22 @@ Of all 35 teams that have played in the EPL across the last decade (2014-2024),
 Middlesbrough was categorically the worst, performing terrible in every meaningful metric and
 often being the last, or second to last in the list. The following metrics are:
 
-13.2% WinRate, 41.8% Shots on Target (Which, I have evaluated and shown has a negative correlation on performance),
+13.2% WinRate, 41.8% Shots on Target (Which, I have evaluated and shown has a negative 
+correlation on performance),
 
 18.5% OTCR% (On Target Conversion Rate), 7.7% TSCR% (Total Shot Conversion Rate) 
 
 and a whopping -0.94 ASC (Average Shot Coefficient)
 
-This means that Middlesbrough, had many of their shots on target, but the vast majority of them did not convert
-to goals - indictating a poor finishing performance. A terrible, TSCR% rate means that the shots they were taking
-that are not on target are of rather poor quality and poor shot selection, and in addition to this, they weren't
-even shooting that often. In the one season they played, they were close to being the bottom in total shots made.
-So of the very very few shots they decided to take, they were poor choices and they had no finishing.
+This means that Middlesbrough, had many of their shots on target, but the vast majority of them did 
+not convertto goals - indictating a poor finishing performance. A terrible, TSCR% rate means that the 
+shots they were takingthat are not on target are of rather poor quality and poor shot selection, 
+and in addition to this, they weren'teven shooting that often. In the one season they played, they were 
+close to being the bottom in total shots made. So of the very very few shots they decided to take, 
+they were poor choices and they had no finishing.
 This is reflected in their astronomically low Win Rate of 13.2%.
 
-So if anyone asks you who the worst Premier League team of the last decade has been - Middlesbrough wouldn't
-be a terrible answer to give.
+So if anyone asks you who the worst Premier League team of the last decade has been 
+- Middlesbrough wouldn't be a terrible answer to give.
 ```
 
