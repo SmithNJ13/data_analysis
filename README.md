@@ -12,15 +12,15 @@
         3rd: Arsenal, Total Goals: 777
 ```
 
-**2.** Which team(s) in the past decade, win most of their games at home and which team(s) win most of their 
-games away?
+**2.** Which team(s) in the past decade, win most of their games at home and which team(s) win most of 
+their games away?
 ```
 Interestingly, the team with the highest home win rate % is Middlesbrough with 80.0% of 
 their wins at home. Ipswich have the highest away win rate % at 67.0%.
-Ironically, despite these impressive values, both teams have their overall win rate % at 13.0%. Yikes.
+Ironically, despite these impressive values, both teams have their overall win rate % at 13.0%.
 
-In a more fair manner, if I want to make a meaningful observation, I decided to limit the pool to teams 
-who have 50 or more wins. In this instance, Everton, with a total of 135 wins has a 
+In a more fair manner, if I want to make a meaningful observation, I decided to limit the pool to 
+teams who have 50 or more wins. In this instance, Everton, with a total of 135 wins has a 
 Home Win Rate% of: 64%! Meanwhile in joint first, we have:
 Chelsea, with a total of 210 wins and Crystal Palace, with a total of 125 wins,
 both teams with an Away Win Rate% of 47.0%!
@@ -63,7 +63,8 @@ additionally, what deeper findings can you extrapolate from these statistics?
 There is a strong correlation between shots taken and goals scored, with a slightly weaker - but still
 strong correlation between shots on target and goals scored.
 
-In addition to this I created three new novel metrics to assist with my analysis, these were the following:
+In addition to this I created three new novel metrics to assist with my analysis, 
+these were the following:
 1.    TSCR% (Total Shot Conversion Rate): Goals per total shots taken
 2.    OTCR% (On Target Conversion Rate): Goals per shots on target
 3.    ASC (Average Shot Coefficient): Team's shot frequency compared to season mean
